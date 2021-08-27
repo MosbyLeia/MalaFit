@@ -1,0 +1,104 @@
+
+.logo {
+    width: 200px;
+    position: relative;
+  }
+  
+  @media (max-width: 650px) {
+    .logo {
+      margin-top: 15px;
+      width: 100%;
+      position: relative;
+    }
+  }
+  
+  li {
+    list-style: none;
+     display: flex;
+      align-items: flex-end;
+    
+  }
+  h1
+  {
+    display: flex;
+    font-size: 20px;
+    color: #400734;
+  }
+  body
+  {
+    background: #44dddd;
+    font-family: Bradley Hand, cursive, monospace;
+  }
+  
+  @media (max-width: 800px) {
+    #video {
+      max-width: 300px;
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+  }
+  nav {
+    font-weight: 400;
+  }
+  
+  @media (max-width: 650px) {
+    nav {
+    
+      margin-top: 10px;
+      width: 100%;
+      display: flex;
+    flex-direction: column;
+       align-items: center;
+      text-align: center;
+      padding: 0 50px;
+    }
+    nav li {
+      padding-bottom: 5px;
+    }
+  }
+  
+  nav > ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+       justify-content: space-around;
+  }
+  
+  @media (max-width: 650px) {
+    nav > ul {
+    
+      flex-direction: column;
+    }
+  }
+  
+  #inicio
+  {
+    color: rgb(8, 2, 92);
+    font-family: Lucida Sans Unicode;
+    font-size: 30px;
+  }
+  #Sobre_Mala_Fit
+  {
+    color: rgb(8, 2, 92);
+    font-family: Lucida Sans Unicode;
+    font-size: 30px;
+  }
+  #Contacto
+  {
+    color: rgb(8, 2, 92);
+    font-family: Lucida Sans Unicode;
+    font-size: 30px;
+  }
+  
+  }
+  #page-wrapper
+  {
+  position: relative;
+   
+  }
+  
+  header
+  {
+    position: fixed;
+  }
